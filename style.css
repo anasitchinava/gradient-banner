@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, white 50%, #012516 50%);
+}
+
+.align-left {
+    text-align: left;
+}
+
+.banner-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 3vw;
+    font-weight: 800;
+    background: linear-gradient(to right, #012516, #012516 50%, white 50%, white);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+  line-height: 0.5;
+}
